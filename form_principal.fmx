@@ -8,4 +8,11 @@ object Form25: TForm25
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
+  object btn_sawan: TButton
+    Position.X = 312.000000000000000000
+    Position.Y = 360.000000000000000000
+    TabOrder = 0
+    Text = 'msg'
+    OnClick = btn_sawanClick
+  end
 end
