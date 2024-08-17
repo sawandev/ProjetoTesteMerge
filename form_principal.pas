@@ -10,7 +10,10 @@ uses
 type
   TForm25 = class(TForm)
     Label1: TLabel;
-  private
+
+    Button1: TButton;
+    Button2: TButton;
+    procedure Button2Click(Sender: TObject);private
     { Private declarations }
   public
     { Public declarations }
@@ -22,5 +25,10 @@ var
 implementation
 
 {$R *.fmx}
+
+procedure TForm25.Button2Click(Sender: TObject);
+begin
+  //
+end;
 
 end.
