@@ -19,4 +19,17 @@ object Form25: TForm25
     Text = 'Label1'
     TabOrder = 1
   end
+  object Button1: TButton
+    Position.X = 304.000000000000000000
+    Position.Y = 256.000000000000000000
+    TabOrder = 3
+    Text = 'Button1'
+  end
+  object Button2: TButton
+    Position.X = 368.000000000000000000
+    Position.Y = 352.000000000000000000
+    TabOrder = 4
+    Text = 'Button2'
+    OnClick = Button2Click
+  end
 end
